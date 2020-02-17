@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/bottom_line"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:padding="4dp">
+        <TextView
+            android:id="@+id/nameOfSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdas" />
+
+        <TextView
+            android:id="@+id/nameOfFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="asdas"
+            android:padding="4dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="asdas"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/downloadFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/file_download"
+        android:background="@drawable/ripple_background_btn"
+        android:padding="4dp"
+        android:text="download"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="4dp"/>
+</LinearLayout>
